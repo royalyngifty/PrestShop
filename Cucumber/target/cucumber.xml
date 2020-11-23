@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="20" time="356.293">
+    <testcase classname="User tries to make application for courses" name="User reading the application steps" time="18.181">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+When application steps loaded...............................................passed
+Then click "steps__box--0" and check "//*[@id='steps__description--0']/h3" "1. Ansöka".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tries to make application for courses" name="User reading the application steps 2" time="17.488">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+When application steps loaded...............................................passed
+Then click "steps__box--1" and check "//*[@id='steps__description--1']/h3" "2. Behörighet".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tries to make application for courses" name="User reading the application steps 3" time="16.646">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+When application steps loaded...............................................passed
+Then click "steps__box--2" and check "//*[@id='steps__description--2']/h3" "3. Antagningsprov".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tries to make application for courses" name="User reading the application steps 4" time="16.783">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+When application steps loaded...............................................passed
+Then click "steps__box--3" and check "//*[@id='steps__description--3']/h3" "4. Antagning".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tries to make application for courses" name="User reading the application steps 5" time="16.196">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+When application steps loaded...............................................passed
+Then click "steps__box--4" and check "//*[@id='steps__description--4']/h3" "5. Utbildningsstart".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tries to make application for courses" name="User selects the course and checks fee amount" time="11.2">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+When course dropdown is visible.............................................passed
+Then user selects "//option[2]" and checks "input_3_19""15 000,00 Kr".......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tries to make application for courses" name="User selects the course and checks fee amount 2" time="10.352">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+When course dropdown is visible.............................................passed
+Then user selects "//option[3]" and checks "input_3_20""1 250,00 Kr"........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tries to make application for courses" name="User selects the course and checks fee amount 3" time="10.965">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+When course dropdown is visible.............................................passed
+Then user selects "//option[4]" and checks "input_3_20""1 250,00 Kr"........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tries to make application for courses" name="User selects the course and checks fee amount 4" time="11.814">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+When course dropdown is visible.............................................passed
+Then user selects "//option[5]" and checks "input_3_18""300,00 Kr"..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User tries to make application for courses" name="User fills the application form without Gender" time="21.489">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user navigates to application menu......................................passed
+And scroll down course dropdown.............................................passed
+When user fills form and submit without gender..............................passed
+Then assert if warning message displayed....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User checks the contact information" name="User checks the address on Map" time="12.146">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And navigate to contact.....................................................passed
+When user clicks on map maximize............................................passed
+Then Map should be maximized and pointer should be seen.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User navigates to Courses page and checks filters" name="User checks the city dropdown" time="23.387">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user clicks on course menu..............................................passed
+When the course filters loaded..............................................passed
+Then select "(//a[contains(text(),'Göteborg')])[2]" and verify "https://www.iths.se/kursort/goteborg/".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User navigates to Courses page and checks filters" name="User checks the city dropdown 2" time="23.12">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user clicks on course menu..............................................passed
+When the course filters loaded..............................................passed
+Then select "(//a[contains(text(),'Stockholm')])[2]" and verify "https://www.iths.se/kursort/stockholm/".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User navigates to Courses page and checks filters" name="User checks the course filters" time="22.447">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user clicks on course menu..............................................passed
+When user clicks on Distance course filter..................................passed
+Then courses should load according to filter................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User randomly checks the features available in Home page" name="User wants to access the course catalog" time="31.749">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And user clicks on course...................................................passed
+And the course catalog opens in the new tab.................................passed
+When user clicks on next arrows.............................................passed
+Then catalog pages should load accordingly..................................passed
+And click previous arrow to close catalog...................................passed
+But previous arrow should not be visible....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User randomly checks the features available in Home page" name="User access the news by Horizontal scroll" time="10.567">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And scrolls to the news section.............................................passed
+When user clicks next.......................................................passed
+Then assert if right most news content changes..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User randomly checks the features available in Home page" name="User tries to access the social media" time="21.706">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+When user scrolls down to footer social media links.........................passed
+Then click "i.fa.fa-linkedin-square" and verify "IT-Högskolan Mission Statement, Employees and Hiring | LinkedIn".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User randomly checks the features available in Home page" name="User tries to access the social media 2" time="21.042">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+When user scrolls down to footer social media links.........................passed
+Then click "i.fa.fa-instagram" and verify "IT-Högskolan (@ithogskolan) • Instagram photos and videos".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User randomly checks the features available in Home page" name="User tries to access the social media 3" time="21.047">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+When user scrolls down to footer social media links.........................passed
+Then click "i.fa.fa-facebook-square" and verify "IT-Högskolan - Home | Facebook".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User randomly checks the features available in Home page" name="User plays watches the course video" time="17.701">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+And navigate to course video................................................passed
+When the user clicks on play video..........................................passed
+Then check if the video playing.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

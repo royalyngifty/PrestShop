@@ -1,0 +1,1514 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-17T21:47:25.535Z",
+        "line": 11,
+        "name": "User reading the application steps",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-reading-the-application-steps;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9650202400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2711350500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23983800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application steps loaded",
+            "match": {
+              "location": "com.it.code.AllSteps.application_steps()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5730158400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click \"steps__box--0\" and check \"//*[@id\u003d\u0027steps__description--0\u0027]/h3\" \"1. Ansöka\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"steps__box--0\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"//*[@id\u003d\u0027steps__description--0\u0027]/h3\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"1. Ansöka\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_steps(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:47:43.730Z",
+        "line": 12,
+        "name": "User reading the application steps",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-reading-the-application-steps;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9869058600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1886825900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22244700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application steps loaded",
+            "match": {
+              "location": "com.it.code.AllSteps.application_steps()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5707339500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click \"steps__box--1\" and check \"//*[@id\u003d\u0027steps__description--1\u0027]/h3\" \"2. Behörighet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"steps__box--1\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"//*[@id\u003d\u0027steps__description--1\u0027]/h3\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"2. Behörighet\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_steps(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:48:01.223Z",
+        "line": 13,
+        "name": "User reading the application steps",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-reading-the-application-steps;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8428901200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2510839200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20755300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application steps loaded",
+            "match": {
+              "location": "com.it.code.AllSteps.application_steps()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5682763800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click \"steps__box--2\" and check \"//*[@id\u003d\u0027steps__description--2\u0027]/h3\" \"3. Antagningsprov\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"steps__box--2\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"//*[@id\u003d\u0027steps__description--2\u0027]/h3\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"3. Antagningsprov\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_steps(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:48:17.874Z",
+        "line": 14,
+        "name": "User reading the application steps",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-reading-the-application-steps;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8659709200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2395739800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21942000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application steps loaded",
+            "match": {
+              "location": "com.it.code.AllSteps.application_steps()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5702792600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click \"steps__box--3\" and check \"//*[@id\u003d\u0027steps__description--3\u0027]/h3\" \"4. Antagning\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"steps__box--3\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"//*[@id\u003d\u0027steps__description--3\u0027]/h3\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"4. Antagning\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_steps(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:48:34.662Z",
+        "line": 15,
+        "name": "User reading the application steps",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-reading-the-application-steps;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7899702000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2570315500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21072200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application steps loaded",
+            "match": {
+              "location": "com.it.code.AllSteps.application_steps()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5704405000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click \"steps__box--4\" and check \"//*[@id\u003d\u0027steps__description--4\u0027]/h3\" \"5. Utbildningsstart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"steps__box--4\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"//*[@id\u003d\u0027steps__description--4\u0027]/h3\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"5. Utbildningsstart\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_steps(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:48:50.862Z",
+        "line": 25,
+        "name": "User selects the course and checks fee amount",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-selects-the-course-and-checks-fee-amount;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7880162000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2478595600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84238100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "course dropdown is visible",
+            "match": {
+              "location": "com.it.code.AllSteps.course_selection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 754382600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user selects \"//option[2]\" and checks \"input_3_19\"\"15 000,00 Kr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"//option[2]\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"input_3_19\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"15 000,00 Kr\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_course_fee(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:49:02.067Z",
+        "line": 26,
+        "name": "User selects the course and checks fee amount",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-selects-the-course-and-checks-fee-amount;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7699598100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1805294200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88759600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "course dropdown is visible",
+            "match": {
+              "location": "com.it.code.AllSteps.course_selection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 758090600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user selects \"//option[3]\" and checks \"input_3_20\"\"1 250,00 Kr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"//option[3]\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"input_3_20\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"1 250,00 Kr\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_course_fee(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:49:12.424Z",
+        "line": 27,
+        "name": "User selects the course and checks fee amount",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-selects-the-course-and-checks-fee-amount;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7772127200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1869843000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89717800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "course dropdown is visible",
+            "match": {
+              "location": "com.it.code.AllSteps.course_selection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1231706100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user selects \"//option[4]\" and checks \"input_3_20\"\"1 250,00 Kr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"//option[4]\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"input_3_20\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"1 250,00 Kr\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_course_fee(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:49:23.394Z",
+        "line": 28,
+        "name": "User selects the course and checks fee amount",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-selects-the-course-and-checks-fee-amount;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7819898800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3159889200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90184600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "course dropdown is visible",
+            "match": {
+              "location": "com.it.code.AllSteps.course_selection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 742017000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user selects \"//option[5]\" and checks \"input_3_18\"\"300,00 Kr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"//option[5]\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"input_3_18\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"300,00 Kr\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_course_fee(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:49:35.210Z",
+        "line": 31,
+        "name": "User fills the application form without Gender",
+        "description": "",
+        "id": "user-tries-to-make-application-for-courses;user-fills-the-application-form-without-gender",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7889629900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2896140300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user navigates to application menu",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90795400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "scroll down course dropdown",
+            "match": {
+              "location": "com.it.code.AllSteps.course_selection_fillform()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2516219100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user fills form and submit without gender",
+            "match": {
+              "location": "com.it.code.AllSteps.fill_form_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8093970800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "assert if warning message displayed",
+            "match": {
+              "location": "com.it.code.AllSteps.check_warning()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      }
+    ],
+    "name": "User tries to make application for courses",
+    "description": "",
+    "id": "user-tries-to-make-application-for-courses",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Application.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-17T21:49:56.703Z",
+        "line": 4,
+        "name": "User checks the address on Map",
+        "description": "",
+        "id": "user-checks-the-contact-information;user-checks-the-address-on-map",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8249243200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2284807800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate to contact",
+            "match": {
+              "location": "com.it.code.AllSteps.navigate_contactus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 358869800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on map maximize",
+            "match": {
+              "location": "com.it.code.AllSteps.maximize()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1252442100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Map should be maximized and pointer should be seen",
+            "match": {
+              "location": "com.it.code.AllSteps.check_address_pointer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      }
+    ],
+    "name": "User checks the contact information",
+    "description": "",
+    "id": "user-checks-the-contact-information",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Contact.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-17T21:50:08.854Z",
+        "line": 11,
+        "name": "User checks the city dropdown",
+        "description": "",
+        "id": "user-navigates-to-courses-page-and-checks-filters;user-checks-the-city-dropdown;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8275488200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12147120600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on course menu",
+            "match": {
+              "location": "com.it.code.AllSteps.select_course_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66141600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the course filters loaded",
+            "match": {
+              "location": "com.it.code.AllSteps.city_dropdowns()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2895987700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select \"(//a[contains(text(),\u0027Göteborg\u0027)])[2]\" and verify \"https://www.iths.se/kursort/goteborg/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"(//a[contains(text(),\u0027Göteborg\u0027)])[2]\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"https://www.iths.se/kursort/goteborg/\"",
+                  "offset": 58
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_filter_city(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:50:32.244Z",
+        "line": 12,
+        "name": "User checks the city dropdown",
+        "description": "",
+        "id": "user-navigates-to-courses-page-and-checks-filters;user-checks-the-city-dropdown;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7796087300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12548531600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on course menu",
+            "match": {
+              "location": "com.it.code.AllSteps.select_course_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67718500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the course filters loaded",
+            "match": {
+              "location": "com.it.code.AllSteps.city_dropdowns()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2706618400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select \"(//a[contains(text(),\u0027Stockholm\u0027)])[2]\" and verify \"https://www.iths.se/kursort/stockholm/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"(//a[contains(text(),\u0027Stockholm\u0027)])[2]\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"https://www.iths.se/kursort/stockholm/\"",
+                  "offset": 59
+                }
+              ],
+              "location": "com.it.code.AllSteps.check_filter_city(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:50:55.368Z",
+        "line": 15,
+        "name": "User checks the course filters",
+        "description": "",
+        "id": "user-navigates-to-courses-page-and-checks-filters;user-checks-the-course-filters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8184266800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11916076800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on course menu",
+            "match": {
+              "location": "com.it.code.AllSteps.select_course_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1694417300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on Distance course filter",
+            "match": {
+              "location": "com.it.code.AllSteps.click_course_filter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 651354800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "courses should load according to filter",
+            "match": {
+              "location": "com.it.code.AllSteps.assert_filter()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      }
+    ],
+    "name": "User navigates to Courses page and checks filters",
+    "description": "",
+    "id": "user-navigates-to-courses-page-and-checks-filters",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Courses.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-17T21:51:17.817Z",
+        "line": 4,
+        "name": "User wants to access the course catalog",
+        "description": "",
+        "id": "user-randomly-checks-the-features-available-in-home-page;user-wants-to-access-the-course-catalog",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8580769900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120678000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on course",
+            "match": {
+              "location": "com.it.code.AllSteps.user_clicks_on_course()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2159546300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the course catalog opens in the new tab",
+            "match": {
+              "location": "com.it.code.AllSteps.course_catalog_opens_newtab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10168176200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on next arrows",
+            "match": {
+              "location": "com.it.code.AllSteps.clicks_next_and_previous()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23986500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "catalog pages should load accordingly",
+            "match": {
+              "location": "com.it.code.AllSteps.assert_pages()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10049447000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click previous arrow to close catalog",
+            "match": {
+              "location": "com.it.code.AllSteps.click_prev()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 643057800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "previous arrow should not be visible",
+            "match": {
+              "location": "com.it.code.AllSteps.check_prev_arrow()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:51:49.570Z",
+        "line": 14,
+        "name": "User access the news by Horizontal scroll",
+        "description": "",
+        "id": "user-randomly-checks-the-features-available-in-home-page;user-access-the-news-by-horizontal-scroll",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7545739300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2177347800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "scrolls to the news section",
+            "match": {
+              "location": "com.it.code.AllSteps.scroll_to_news()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39945200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks next",
+            "match": {
+              "location": "com.it.code.AllSteps.click_next_news()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 801353400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "assert if right most news content changes",
+            "match": {
+              "location": "com.it.code.AllSteps.check_news_content()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:52:00.141Z",
+        "line": 27,
+        "name": "User tries to access the social media",
+        "description": "",
+        "id": "user-randomly-checks-the-features-available-in-home-page;user-tries-to-access-the-social-media;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8856069200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5978400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user scrolls down to footer social media links",
+            "match": {
+              "location": "com.it.code.AllSteps.footer_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12843616800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click \"i.fa.fa-linkedin-square\" and verify \"IT-Högskolan Mission Statement, Employees and Hiring | LinkedIn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"i.fa.fa-linkedin-square\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"IT-Högskolan Mission Statement, Employees and Hiring | LinkedIn\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.it.code.AllSteps.click_link(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:52:21.850Z",
+        "line": 28,
+        "name": "User tries to access the social media",
+        "description": "",
+        "id": "user-randomly-checks-the-features-available-in-home-page;user-tries-to-access-the-social-media;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8212617800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5406200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user scrolls down to footer social media links",
+            "match": {
+              "location": "com.it.code.AllSteps.footer_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12822050900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click \"i.fa.fa-instagram\" and verify \"IT-Högskolan (@ithogskolan) • Instagram photos and videos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"i.fa.fa-instagram\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"IT-Högskolan (@ithogskolan) • Instagram photos and videos\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.it.code.AllSteps.click_link(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:52:42.895Z",
+        "line": 29,
+        "name": "User tries to access the social media",
+        "description": "",
+        "id": "user-randomly-checks-the-features-available-in-home-page;user-tries-to-access-the-social-media;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8147937100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7977300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user scrolls down to footer social media links",
+            "match": {
+              "location": "com.it.code.AllSteps.footer_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12891629600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click \"i.fa.fa-facebook-square\" and verify \"IT-Högskolan - Home | Facebook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"i.fa.fa-facebook-square\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"IT-Högskolan - Home | Facebook\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.it.code.AllSteps.click_link(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-17T21:53:03.945Z",
+        "line": 32,
+        "name": "User plays watches the course video",
+        "description": "",
+        "id": "user-randomly-checks-the-features-available-in-home-page;user-plays-watches-the-course-video",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7991433600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "com.it.code.AllSteps.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199462700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "navigate to course video",
+            "match": {
+              "location": "com.it.code.AllSteps.course_video()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70808900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks on play video",
+            "match": {
+              "location": "com.it.code.AllSteps.click_video()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9438020800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "check if the video playing",
+            "match": {
+              "location": "com.it.code.AllSteps.check_video()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      }
+    ],
+    "name": "User randomly checks the features available in Home page",
+    "description": "",
+    "id": "user-randomly-checks-the-features-available-in-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/HomePageOptions.feature",
+    "tags": []
+  }
+]
